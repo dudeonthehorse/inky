@@ -1,8 +1,8 @@
 {
-  "name": "inky",
-  "version": "1.3.7",
-  "description": "Convert a simple HTML syntax into tables compatible with Foundation for Emails.",
-  "author": "ZURB <foundation@zurb.com> (http://foundation.zurb.com)",
+  "name": "kinky",
+  "version": "1.0.0",
+  "description": "Convert a simple HTML syntax into tables compatible with Kilogram Email Framework",
+  "author": "dudeonthehorse <dudeonthehorse@gmail.com>",
   "keywords": [
     "ink",
     "foundation",
@@ -35,7 +35,7 @@
     "vinyl-buffer": "^1.0.0",
     "vinyl-source-stream": "^1.1.0"
   },
-  "repository": "https://github.com/zurb/inky.git",
-  "bugs": "https://github.com/zurb/inky/issues",
+  "repository": "https://github.com/dudeonthehorse/kinky.git",
+  "bugs": "https://github.com/dudeonthehorse/kinky/issues",
   "license": "MIT"
 }
