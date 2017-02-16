@@ -5,9 +5,11 @@ Kinky is an HTML-based templating language that converts simple HTML into comple
 Give Kinky simple HTML like this:
 
 ```html
-<wrapper>
+<wrapper width="600">
   <row>
-    <column></column>
+    <column>
+
+    </column>
   </row>
 </wrapper>
 ```
@@ -15,7 +17,12 @@ Give Kinky simple HTML like this:
 And get complicated, but battle-tested, email-ready HTML like this:
 
 ```html
-<table class="wrapper">
+<!--[if (gte mso 9)|(IE)]>
+<table width="600" align="center">
+<tr>
+<td>
+<![endif]-->
+<table width="600" style="width:100%; max-width:600px;" class="wrapper" align="center">
   <tbody>
     <tr>
       <td class="row">
@@ -23,7 +30,7 @@ And get complicated, but battle-tested, email-ready HTML like this:
           <table width="100%">
             <tr>
               <td class="cell">
-                
+
               </td>
             </tr>
           </table>
@@ -32,6 +39,11 @@ And get complicated, but battle-tested, email-ready HTML like this:
     </tr>
   </tbody>
 </table>
+<!--[if (gte mso 9)|(IE)]>
+</td>
+</tr>
+</table>
+<![endif]-->
 ```
 
 ## Installation
@@ -88,8 +100,6 @@ Here are the names of the defaults:
   button: 'button',
   row: 'row',
   column: 'column',
-  container: 'container',
-  nav: 'nav',
   cover: 'cover'
   button: 'button',
 }
