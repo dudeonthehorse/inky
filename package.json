@@ -1,6 +1,6 @@
 {
   "name": "kinky",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "Convert a simple HTML syntax into tables compatible with Kilogram Email Framework",
   "author": "dudeonthehorse <dudeonthehorse@gmail.com>",
   "keywords": [
