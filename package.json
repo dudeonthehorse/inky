@@ -1,9 +1,10 @@
 {
   "name": "kinky",
-  "version": "2.0.0",
-  "description": "Convert a simple HTML syntax into tables compatible with Kilogram Email Framework",
-  "author": "dudeonthehorse <dudeonthehorse@gmail.com>",
+  "version": "2.0.2",
+  "description": "Convert a simple HTML syntax into tables compatible with Kilogram Email Development Framework",
+  "author": "dudeonthehorse <dudeonthehorse@gmail.com>, ZURB <foundation@zurb.com> (http://foundation.zurb.com)",
   "keywords": [
+    "kinky",
     "ink",
     "foundation",
     "email",
