@@ -1,6 +1,6 @@
 {
   "name": "kinky",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "Convert a simple HTML syntax into tables compatible with Kilogram Email Development Framework",
   "author": "dudeonthehorse <dudeonthehorse@gmail.com>, ZURB <foundation@zurb.com> (http://foundation.zurb.com)",
   "keywords": [
@@ -16,7 +16,7 @@
     "browser": "gulp browser"
   },
   "dependencies": {
-    "cheerio": "^0.20.0",
+    "cheerio": "1.0.0",
     "foundation-emails": "^2.2.0",
     "mkdirp": "^0.5.1",
     "object-values": "^1.0.0",
